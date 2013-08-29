@@ -106,11 +106,11 @@ function getUserInfoLength() {
   return ("[" + username + "@" + hostname + ":" + (dir == "/home/" + username + "/" ? "~" : dir) + "]# ").length;
 }
 
-function sha1(var string) {
+function sha1(string) {
   return CryptoJS.SHA1(string).toString(CryptoJS.enc.Hex);
 }
 
-function compareHash(var h1, var h2) {
+function compareHash(h1, h2) {
   if (h1 == h2)
     return true;
   else
