@@ -1,18 +1,18 @@
 var cmd = "";
 var hostname = "dongs";
-var username = "dsiebels";
-var users = {"dsiebels": "373733432d3eacd56028faaf8ff50b805588da99"};
+var username = "tuogex";
+var users = {"tuogex": "373733432d3eacd56028faaf8ff50b805588da99"};
 var fs = {};
-var dir = "/home/dsiebels/";
+var dir = "/home/tuogex/";
 var commands = {"ls": lsCommand, "whoami":whoamiCommand, "cat":catCommand, "time":timeCommand};
 var prgm = "bash";
 var bashHistoryIndex = -1;
 var bashHistory = [];
 var colors = {"white": "\033[0;37m", "lightblue":"\033[0;34m"};
-fs["/home/dsiebels/"] = "\x00;.;..;directory/;my_boy.txt;something.txt;will.txt;";
-fs["/home/dsiebels/my_boy.txt"] = "my boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\r";
-fs["/home/dsiebels/something.txt"] = "hi";
-fs["/home/dsiebels/will.txt"] = "yams";
+fs["/home/tuogex/"] = "\x00;.;..;directory/;my_boy.txt;something.txt;will.txt;";
+fs["/home/tuogex/my_boy.txt"] = "my boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\rmy boy\n\r";
+fs["/home/tuogex/something.txt"] = "hi";
+fs["/home/tuogex/will.txt"] = "yams";
 
 Terminal.cursorBlink = true;
 
