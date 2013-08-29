@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+h3 {
+  text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.2), -1px -1px 1px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #232323;
+  font-size: 6em;
+  font-family: arial;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.walls{
+  top: 50px;
+  border-width: 60px;
+  border-style: solid;
+  display: inline-block;
+  border-top-color: #444;
+  border-left-color: black;
+  border-bottom-color: black;
+  border-right-color: black;
+  position:relative;
+  -webkit-animation: walls 3s infinite linear;
+  margin-top: 1%;
+}
+
+.floor{
+  border-width: 90px;
+  border-style: solid;
+  display: block;
+  border-top-color: #666;
+  border-left-color: black;
+  border-bottom-color: black;
+  border-right-color: black;
+  -webkit-animation: floor 3s infinite linear;
+}
+
+@-webkit-keyframes walls {
+  0%   {   border-top-color: #333;
+  border-left-color: #111;
+  border-bottom-color: black;
+  border-right-color: #222; }
+  25% {   border-top-color: #111;
+  border-left-color: black;
+  border-bottom-color: #222;
+  border-right-color: #333; }
+    50% {   border-top-color: black;
+  border-left-color: #222;
+  border-bottom-color: #333;
+  border-right-color: #111; }
+    75% {   border-top-color: #222;
+  border-left-color: #333;
+  border-bottom-color: #111;
+  border-right-color: black; }
+    100% {   border-top-color: #333;
+  border-left-color: #111;
+  border-bottom-color: black;
+  border-right-color: #222; }
+}
+
+@-webkit-keyframes floor {
+  0%   {   border-top-color: #555;
+  border-left-color: #333;
+  border-bottom-color: black;
+  border-right-color: #222; }
+  25% {   border-top-color: #333;
+  border-left-color: black;
+  border-bottom-color: #222;
+  border-right-color: #555; }
+    50% {   border-top-color: black;
+  border-left-color: #222;
+  border-bottom-color: #555;
+  border-right-color: #333; }
+    75% {   border-top-color: #222;
+  border-left-color: #555;
+  border-bottom-color: #333;
+  border-right-color: black; }
+    100% {   border-top-color: #555;
+  border-left-color: #333;
+  border-bottom-color: black;
+  border-right-color: #222; }
+}
